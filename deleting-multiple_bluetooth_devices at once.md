@@ -119,5 +119,3 @@ fi
 ## 🙌 Contributions Welcome
 
 Feel free to fork, improve, and submit pull requests to help others manage Bluetooth on macOS better!
-
-```
