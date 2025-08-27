@@ -1,0 +1,14 @@
+name: Always Pass Workflow
+
+on:
+    push:
+        branches:
+            - main
+    workflow_dispatch:
+
+jobs:
+    always-pass:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Always Succeed
+            run: echo "This workflow always passes!"
