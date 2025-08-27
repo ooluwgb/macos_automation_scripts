@@ -121,7 +121,3 @@ fi
 Feel free to fork, improve, and submit pull requests to help others manage Bluetooth on macOS better!
 
 ```
-
----
-
-Let me know if you want this as a downloadable `.md` file or embedded in a full `README.md` template with license, badges, and contribution guide!
