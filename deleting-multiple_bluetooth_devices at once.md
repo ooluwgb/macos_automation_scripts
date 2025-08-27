@@ -1,8 +1,3 @@
-Absolutely! Here's a detailed and user-friendly **Markdown explanation** for your repository that explains the process of listing and removing Bluetooth devices using a Bash automation script on macOS.
-
----
-
-```markdown
 # 🔗 macOS Bluetooth Manager (CLI Automation Script)
 
 This guide provides a **command-line solution** to list and selectively **remove/unpair Bluetooth devices** on macOS using a Bash script and a lightweight tool called `blueutil`.
@@ -37,7 +32,7 @@ This guide provides a **command-line solution** to list and selectively **remove
 #!/bin/bash
 
 # List of Bluetooth device names you want to keep
-keep_list=("Bose S1 Pro" "MX Ergo" "Keyboard K380")
+keep_list=("Device 1" "Device 2" "Device n")
 
 # Check if blueutil is installed
 if ! command -v blueutil &> /dev/null; then
